@@ -5,4 +5,6 @@ module com.example.constructioncostpm {
 
     opens com.example.constructioncostpm to javafx.fxml;
     exports com.example.constructioncostpm;
+    exports preparation;
+    opens preparation to javafx.fxml;
 }
