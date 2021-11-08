@@ -36,6 +36,9 @@ public class EmplAndSmeta <Employees,Smeta>{
                 ", field2=" + field2 +
                 '}';
     }
+  public double sal () {
 
+        return 10;
+  }
 
 }

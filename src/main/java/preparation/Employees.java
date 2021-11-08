@@ -11,11 +11,22 @@ public class Employees {
 
     private double сostPerHour;
 
+    private static int numb;
+
+
+
+    public static int getNumb() {
+        return numb;
+    }
+
     public Employees(String codeProfession, String profession, double сostPerHour) {
         this.codeProfession = codeProfession;
         this.profession = profession;
         this.сostPerHour = сostPerHour;
+        numb++;
     }
+
+
 
     public String getCodeProfession() {
         return codeProfession;
@@ -62,4 +73,6 @@ public class Employees {
                 ", сostPerHour=" + сostPerHour +
                 '}';
     }
+
+
 }
